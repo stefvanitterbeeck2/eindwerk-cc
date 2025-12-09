@@ -1,0 +1,4 @@
+image:
+  repository: stefvanitterbeeck2/eindwerk-app
+  tag: qa-latest
+  pullPolicy: IfNotPresent
