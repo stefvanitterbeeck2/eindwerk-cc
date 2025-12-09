@@ -1,0 +1,5 @@
+resources:
+  - ../../charts/app
+images:
+  - name: stefvanitterbeeck2/eindwerk-app
+    newTag: qa-latest

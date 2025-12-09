@@ -1,14 +1,6 @@
 apiVersion: v2
 name: eindwerk-app
+description: A app for CI/CD & GitOps
+type: application
 version: 1.0.0
 appVersion: 1.0.0
-
-# values.yaml
-image:
-repository: stefvanitterbeeck2/eindwerk-app
-tag: latest
-pullPolicy: IfNotPresent
-
-service:
-type: ClusterIP
-port: 80
